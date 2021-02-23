@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lecture1_jade_Ramp
+  m_Shader: {fileID: 4800000, guid: 2e2abc64f0571804296c1dca56705d31, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _gradiant:
+        m_Texture: {fileID: 2800000, guid: 6ae7ea6cd4fc6d24a852725cefe51a08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _fresnel_power: 2.9
+    - _highlight_intensity: 1
+    - _highlight_threshold: 0.977
+    - _highlight_transition: 0.0055
+    m_Colors:
+    - _Highlight_Offset: {r: 6.21, g: 28.05, b: -3.66, a: 0}
+    - _fresnel_color: {r: 0.8443396, g: 0.99835765, b: 1, a: 0.39607844}
+    - _node_397: {r: 1, g: 0.9889599, b: 0.9019608, a: 1}
