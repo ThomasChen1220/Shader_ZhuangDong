@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _pattern:
         m_Texture: {fileID: 2800000, guid: b22688f8ee2978d4ab44429ae1395774, type: 3}
-        m_Scale: {x: 15, y: 15}
+        m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _dark_threshold: 0

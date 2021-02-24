@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lecture3_LerpTwo
+  m_Shader: {fileID: 4800000, guid: 86beaaf8bc4c0ae45adebc73cbc25e01, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _noise:
+        m_Texture: {fileID: 2800000, guid: 0e816a848586d8a4196256dde9b1676f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _specularExp: 2.091539
+    - _specularExp_2: 1
+    - _specularStrength: 0.6905507
+    - _specularStrength_2: 0.2096489
+    - _threshold: 0.24
+    m_Colors:
+    - _color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+    - _color_2: {r: 0.5377358, g: 0.15664299, b: 0.088777125, a: 1}
+    - _node_1806: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+    - _node_1806_copy: {r: 0.5377358, g: 0.2527811, b: 0.2003827, a: 1}
