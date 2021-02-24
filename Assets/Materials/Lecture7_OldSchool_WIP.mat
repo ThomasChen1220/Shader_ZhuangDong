@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lecture7_OldSchool_WIP
+  m_Shader: {fileID: 4800000, guid: 9381567ccc5ae2244b04ab126db73037, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 1c50b8c35553af7459021f85afaf92ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_3040:
+        m_Texture: {fileID: 2800000, guid: 6ae7ea6cd4fc6d24a852725cefe51a08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalMap:
+        m_Texture: {fileID: 2800000, guid: dc05175694ed36e4982b56bcf14e3c08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _thicknessMap:
+        m_Texture: {fileID: 2800000, guid: caf048504991adc40b865a21748e33bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _envIntensity: 0.517393
+    - _fresnelExp: 2.32
+    - _normalStrength: 0
+    - _specularExp: 4.356436
+    - _specularStrength: 0.2772277
+    m_Colors:
+    - _AO_color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _baseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _downColor: {r: 0.1908477, g: 0.06452475, b: 0.4716981, a: 1}
+    - _fresnelColor: {r: 1, g: 0.9942536, b: 0.7877358, a: 1}
+    - _midColor: {r: 0.09803922, g: 0.1014229, b: 0.2352941, a: 1}
+    - _node_3977: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _node_7957: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _topColor: {r: 1, g: 0.9556604, b: 0.7783019, a: 1}

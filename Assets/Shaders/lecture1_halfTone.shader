@@ -76,18 +76,13 @@ Shader "Lecture1/HalfTone" {
                 float4 _node_8848_copy_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_8848_copy );
                 float4 _node_8848_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_8848 );
                 float _node_7705_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_7705 );
-                float2 node_2778 = (float2((sceneUVs.x * 2 - 1)*(_ScreenParams.r/_ScreenParams.g), sceneUVs.y * 2 - 1).rg*_node_7705_var);
-                float2 node_6998 = frac(node_2778);
                 float _node_3329_var = UNITY_ACCESS_INSTANCED_PROP( Props, _node_3329 );
                 float node_3540 = (3.141592654*0.25);
                 float node_6055 = (node_3540*(-1.0));
-                float node_5642 = length((node_6055 + ( (node_6998 - _node_3329_var) * (node_3540 - node_6055) ) / (1.0 - _node_3329_var)));
-                float node_4625 = dot(i.normalDir,lightDirection);
-                float node_5096 = ((node_4625*0.5+0.5)*attenuation);
                 float __var = UNITY_ACCESS_INSTANCED_PROP( Props, _ );
                 float _dot_end_var = UNITY_ACCESS_INSTANCED_PROP( Props, _dot_end );
                 float node_3784 = 0.0;
-                float3 emissive = lerp(_node_8848_copy_var.rgb,_node_8848_var.rgb,step(node_5642,(node_3784 + ( (node_5096 - __var) * (1.0 - node_3784) ) / (_dot_end_var - __var))));
+                float3 emissive = lerp(_node_8848_copy_var.rgb,_node_8848_var.rgb,step(length((node_6055 + ( (frac((float2((sceneUVs.x * 2 - 1)*(_ScreenParams.r/_ScreenParams.g), sceneUVs.y * 2 - 1).rg*_node_7705_var)) - _node_3329_var) * (node_3540 - node_6055) ) / (1.0 - _node_3329_var))),(node_3784 + ( (((dot(i.normalDir,lightDirection)*0.5+0.5)*attenuation) - __var) * (1.0 - node_3784) ) / (_dot_end_var - __var))));
                 float3 finalColor = emissive;
                 return fixed4(finalColor,1);
             }
