@@ -59,3 +59,10 @@ sysinfo.txt
 crashlytics-build.properties
 
 Assets/ShaderForge/
+*.meta
+Assets/AmplifyShaderEditor/
+Assets/Models/ogre_magi_materials/
+Assets/Skybox/
+Assets/Texture/Matcap/
+Assets/_TerrainAutoUpgrade/layer_b05780438ad4031.terrainlayer
+Assets/_TerrainAutoUpgrade/

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lecture9_OldSchool_Uber
+  m_Shader: {fileID: 4800000, guid: 8db25c7d96099504e9e08ddc7d5c5d31, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 1c50b8c35553af7459021f85afaf92ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _cubemap:
+        m_Texture: {fileID: 8900000, guid: 2fa7449c92e5afd448be1ff1f17c2860, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalMap:
+        m_Texture: {fileID: 2800000, guid: dc05175694ed36e4982b56bcf14e3c08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _cubemapMip: 5.57
+    - _envIntensity: 0.4257426
+    - _fresnelExp: 0.2
+    - _fresnelPower: 0.3806131
+    - _metallic: 1
+    - _nonMetalSpec: 0.5
+    - _shadow_Intensity: 0.7
+    - _specularExp: 2.699697
+    m_Colors:
+    - _AO_color: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    - _baseColor: {r: 0.5, g: 0.4692237, b: 0.1863208, a: 1}
+    - _downColor: {r: 0.06007475, g: 0.1495302, b: 0.509434, a: 1}
+    - _midColor: {r: 0.09803922, g: 0.1014229, b: 0.2352941, a: 1}
+    - _topColor: {r: 1, g: 0.9556604, b: 0.7783019, a: 1}

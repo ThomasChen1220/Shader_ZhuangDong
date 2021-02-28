@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lecture11_dota_arms
+  m_Shader: {fileID: 4800000, guid: ca14ed9a4f80d4f49af7005add63743e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _baseColorMap:
+        m_Texture: {fileID: 2800000, guid: cc12b6f5096550549b0459fb555cfd17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _diffuseWarp:
+        m_Texture: {fileID: 2800000, guid: 5174c60ec88e5774bbb6f5f0780a7eea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _fresnelWarpColor:
+        m_Texture: {fileID: 2800000, guid: 2ea98528711db3449a292841744b32d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _fresnelWarpRim:
+        m_Texture: {fileID: 2800000, guid: 5b9be9b77444dd440b736a4f067812ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _metallicMap:
+        m_Texture: {fileID: 2800000, guid: f6c9abf75d0b0404982ab01f2c9bb814, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_7815:
+        m_Texture: {fileID: 2800000, guid: a154352ee3b01964ea7baa3d1e5ee797, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalMap:
+        m_Texture: {fileID: 2800000, guid: b2063a2264b464346b37f7a7d06a75cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _rimMask:
+        m_Texture: {fileID: 2800000, guid: 433144750a6950b488d88f7d5e1ffb37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _self_Illumination:
+        m_Texture: {fileID: 2800000, guid: e042531f7b615c141b7f4b59bb82c07b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _specularExp:
+        m_Texture: {fileID: 2800000, guid: b3e85b0520f15234d84d704e34025d7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _specularMask:
+        m_Texture: {fileID: 2800000, guid: f28567947e43b5d40816bb4acf1f2d35, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _specularTint:
+        m_Texture: {fileID: 2800000, guid: bdd07728d3718684e9eb15b21b5681d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _RimStrength: 3
+    - _fresnelExp: 1
+    - _fresnelStrength: 0.4424359
+    - _nonMetalSpec: 0.7
+    - _rimlExp: 1
+    - _self_Illumination_Strength: 0
+    - _shadow_Intensity: 0.7
+    - _specularExp: 1.362307
+    m_Colors:
+    - _baseColor: {r: 0.5, g: 0.4692237, b: 0.1863208, a: 1}

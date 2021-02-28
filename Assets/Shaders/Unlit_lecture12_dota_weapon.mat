@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_lecture12_dota_weapon
+  m_Shader: {fileID: 4800000, guid: 13f7310a363a8e44ba251853e70b824e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Color:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 3b6650384894d7f46a917c8bbc4cf115, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseWarp:
+        m_Texture: {fileID: 2800000, guid: e8ca89a6322f34043af6507028963d1f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelWarpColor:
+        m_Texture: {fileID: 2800000, guid: 2ea98528711db3449a292841744b32d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelWarpRim:
+        m_Texture: {fileID: 2800000, guid: 5b9be9b77444dd440b736a4f067812ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelWarpSpec:
+        m_Texture: {fileID: 2800000, guid: 24f48ce174f907645aeff4edcfcb713c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 48e90cf9a34522748abc21a265fe52e1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalnessMask:
+        m_Texture: {fileID: 2800000, guid: 00fa7e02f87083d499ae4e141b9b5d7a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 5c4833894da653142b9195a7de2d0523, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimMask:
+        m_Texture: {fileID: 2800000, guid: 67810e44215a9fb44adf0dc118244432, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SelfIllumMask:
+        m_Texture: {fileID: 2800000, guid: 4cdfdb5a20eca324e905551c171b9135, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularExponent:
+        m_Texture: {fileID: 2800000, guid: e198d38d807630e41b0144d086c4966d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMask:
+        m_Texture: {fileID: 2800000, guid: f324b200f54d6de438f6af077eed912d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TintByBaseMask:
+        m_Texture: {fileID: 2800000, guid: e45d33a2e656ad948adcf9498713d5d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Translucency:
+        m_Texture: {fileID: 2800000, guid: d11c626df21908a4aa8b31a4756f6171, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _EmitInt: 3.37
+    - _EnvSpecInt: 9.92
+    - _RimInt: 10
+    - _ShadowInt: 1
+    - _SpecInt: 1.71
+    - _SpecPow: 0.35
+    m_Colors:
+    - _Color: {r: 0.04705883, g: 0.011764707, b: 0.003921569, a: 1}
+    - _EnvCol: {r: 0.4669811, g: 0.5094339, b: 0.6226415, a: 1}
+    - _RimCol: {r: 0.82699776, g: 0.82699776, b: 0.82699776, a: 1}
